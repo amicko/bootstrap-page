@@ -1,0 +1,132 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+.brand {
+	color: #4B8BC9;
+}
+
+.mainPic {
+	background: no-repeat center/100% url("https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/bootstrap-grid/master/images/hero-dark.jpg");
+
+	.picTitle {
+		display: block;
+		margin: 0 auto;
+		padding-top: 2em;
+		padding-bottom: 0.25em;
+		color: white;
+		text-align: center;
+		font-size: 3.5em;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.picText {
+		display: block;
+		width: 20em;
+		color: white;
+		padding-bottom: 5em;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+	}
+}
+
+.mainBox {
+	margin: 0 3em;
+}
+
+.clean {
+	margin: 1em 3em;
+	> span {
+		display: block;
+		color: #97969B;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.cleanTitle {
+		margin-top: 1em;
+		font-weight: bold;
+		font-size: 1.5em;
+		letter-spacing: 0.15em;
+	}
+
+	.cleanText {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.cleanButton {
+		display: block;
+		background: #418ACB;
+		margin-bottom: 1em;
+		color: #C8E7F1;
+		font-size: 12px;
+		line-height: 24px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;	
+	}
+}
+.triple {
+		span {
+			color: #97969B;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.tripleTitle {
+			display: block;
+			margin: 0;
+			text-align: center;
+			padding-bottom: 1em;
+			letter-spacing: 0.18em;
+		}
+
+		.tripleText {
+			display: block;
+			font-size: 12px;
+		}
+}
+
+.quad {
+	span {
+		display: block;
+		color: #97969B;
+		font-family: 'Open Sans', sans-serif;
+	}
+}
+
+.welcome{
+	span {
+		display: block;
+		color: #97969B;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.welcomeTitle {
+		font-weight: bold;
+		padding: 0.5em 0.5em 0.5em 0;
+		font-size: 1.5em;
+		letter-spacing: 0.18em;
+	}
+}
+
+.footer {
+	background-color:#3A414B;
+	color: #97969B;
+	margin-top: 1.5em;
+	padding: 1em;
+
+	span {
+		display: block;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.footerTitle {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	.footerText {
+		li {
+			list-style-type: none;
+			margin-left: -3em;
+		}
+	}
+}
